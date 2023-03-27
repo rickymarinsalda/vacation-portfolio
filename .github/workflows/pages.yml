@@ -1,0 +1,39 @@
+name: Create pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+
+    name: Deploy website
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Build svelte app
+        run: |
+          cd svelte
+          npm i 
+          npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: /svelte/src/build
+
