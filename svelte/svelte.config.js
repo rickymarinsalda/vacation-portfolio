@@ -1,6 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
+// TODO: add basepath in case of multiple pages
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
@@ -14,7 +16,7 @@ const config = {
 		  pages: 'build',
 		  assets: 'build',
 		  fallback: null,
-		  precompress: false,
+		  precompress: true,
 		  strict: true
 		})
 	}
