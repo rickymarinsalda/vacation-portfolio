@@ -27,7 +27,6 @@ jobs:
 
       - name: Build svelte app
         run: |
-          cd svelte
           npm i 
           npm run build
 
@@ -35,5 +34,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./svelte/build
+          publish_dir: ./build
 
