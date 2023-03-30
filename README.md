@@ -1,5 +1,16 @@
 # vacation-portfolio
 
+to run locally
+
+```shell
+npm install
+npm run dev
+```
+
+pages are inside `/src/routes/`
+
+static things are inside `/static/`
+
 ## todo
 - add what's near quindi mare e altre cose e a che distanza e che spiaggie
 - mettere più immagini

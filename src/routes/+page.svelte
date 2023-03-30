@@ -1,13 +1,12 @@
 <script>
-	import { Carousel } from 'flowbite-svelte';
 	import Info from '../components/Info.svelte';
-
+	
 	import {houseImages} from '../components/+house'
 	import {scooterImages} from '../components/+scooter'
 	import {galleryImages} from '../components/+gallery'
-
-	import { Gallery, GalleryItem } from "flowbite-svelte";
-	import InfoCard from '../components/InfoCard.svelte';
+	
+	import { Button, Card, Carousel, Gallery, GalleryItem } from "flowbite-svelte";
+	import BeachCard from '../components/BeachCard.svelte';
 
 	let showThumbs = false;
 	let showCaptions = false;
@@ -46,19 +45,6 @@
 	</div>
 </div>
 
-<div class="my-10 mx-auto">
-
-	<h2 class="my-10 text-4xl font-bold dark:text-white">
-		Gallery
-	</h2>
-
-	<Gallery>
-		{#each galleryImages as {src, alt}}
-		<GalleryItem imgClass={"max-h-[40rem] rounded-lg max-w-full"} {src} {alt} />
-		{/each}
-	</Gallery>
-</div>
-
 
 <div class="my-5">
 	
@@ -81,6 +67,21 @@
 		</div>
 	
 	</div>
+</div>
+
+<hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
+
+<div class="my-10 mx-auto">
+
+	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
+		Gallery
+	</h1>
+
+	<Gallery>
+		{#each galleryImages as {src, alt}}
+		<GalleryItem imgClass={"max-h-[40rem] rounded-lg max-w-full"} {src} {alt} />
+		{/each}
+	</Gallery>
 </div>
 
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
@@ -127,17 +128,171 @@
 		What's near
 	</h2>
 
-	<!-- TODO non mi piacciono tanto comunque -->
-	
-	<div class="flex flex-wrap items-center justify-center">
-		<InfoCard description={"u mare"} title={"2 Km"}>
-			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
-		</InfoCard>
-		<InfoCard description={"u sole"} title={"2 Km"}>
-			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
-		</InfoCard>
-		<InfoCard description={"u core"} title={"2 Km"}>
-			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
-		</InfoCard>
+	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:justify-center lg:overflow-x-auto">
+		
+		<BeachCard 
+			title="Spiaggia di procchio" 
+			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			src="/images/beach/procchio.jpg"
+		/>
+		
+		<BeachCard 
+			title="Spiaggia di paolina" 
+			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			src="/images/beach/paolina.jpg"
+		/>
+		<BeachCard 
+			title="Spiaggia di sant andrea" 
+			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			src="/images/beach/sant-andrea.jpg"
+		/>
+		<BeachCard 
+			title="Spiaggia di spartaia" 
+			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			src="/images/beach/spartaia.jpg"
+		/>
+
+	</div>
+</div>
+
+<hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
+
+<div class="mx-auto my-10">
+	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
+		Prices
+	</h1>
+
+	<p class="mx-auto max-w-4xl md:my-10 my-3 text-lg dark:text-zinc-200">
+		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+	</p>
+
+	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:items-center lg:justify-center lg:overflow-x-auto">
+		<div class="lg:my-2 shrink-0">
+			<Card padding="lg">
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold">$</span>
+					<span class="text-5xl font-extrabold tracking-tight">49</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+				</div>
+				<!-- List -->
+				<ul class="my-7 space-y-4">
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+					</li>
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+					</li>
+					<li class="flex space-x-2">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
+					</li>
+				</ul>
+				<Button class="w-full">Choose plan</Button>
+			</Card>
+		</div>
+		<div class="lg:my-2 shrink-0">
+			<Card size="xl" padding="xl">
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold">$</span>
+					<span class="text-5xl font-extrabold tracking-tight">49</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+				</div>
+				<!-- List -->
+				<ul class="my-7 space-y-4">
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+					</li>
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+					</li>
+					<li class="flex space-x-2">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
+					</li>
+				</ul>
+				<Button class="w-full">Choose plan</Button>
+			</Card>
+		</div>
+		<div class="lg:my-2 shrink-0">
+			<Card padding="lg">
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold">$</span>
+					<span class="text-5xl font-extrabold tracking-tight">49</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+				</div>
+				<!-- List -->
+				<ul class="my-7 space-y-4">
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+					</li>
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+					</li>
+					<li class="flex space-x-2">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
+					</li>
+					<li class="flex space-x-2 line-through decoration-gray-500">
+						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
+					</li>
+				</ul>
+				<Button class="w-full">Choose plan</Button>
+			</Card>
+		</div>
+		
 	</div>
 </div>
