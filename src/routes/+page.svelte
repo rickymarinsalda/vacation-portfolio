@@ -4,7 +4,7 @@
 
 	import {houseImages} from '../components/+house'
 	import {scooterImages} from '../components/+scooter'
-	import {bathroomImages} from '../components/+bathroom'
+	import {galleryImages} from '../components/+gallery'
 
 	import { Gallery, GalleryItem } from "flowbite-svelte";
 	import InfoCard from '../components/InfoCard.svelte';
@@ -48,39 +48,51 @@
 
 <div class="my-10 mx-auto">
 
-	<h2 class="my-4 text-4xl font-bold dark:text-white">
-		Bathroom
+	<h2 class="my-10 text-4xl font-bold dark:text-white">
+		Gallery
 	</h2>
 
 	<Gallery>
-		{#each bathroomImages as {src, alt}}
+		{#each galleryImages as {src, alt}}
 		<GalleryItem imgClass={"max-h-[40rem] rounded-lg max-w-full"} {src} {alt} />
 		{/each}
 	</Gallery>
 </div>
 
-<div class="mx-auto mb-5">
-	<h2 class="my-4 text-4xl font-bold dark:text-white">
+
+<div class="my-5">
+	
+	<h2 class="my-10 text-4xl font-bold dark:text-white">
 		Services
 	</h2>
-
-	<div class="max-w-2xl mx-auto">
-		<Carousel images={scooterImages} {showThumbs} {showCaptions} />
+	<div class="flex flex-col md:flex-row justify-around items-center mx-auto mb-5">
+	
+		<div class="md:w-2/5 max-w-2xl h-96 flex items-center justify-center">
+			<div class="max-w-2xl mx-auto">
+				<Carousel images={scooterImages} {showThumbs} {showCaptions} />
+			</div>
+		</div>
+	
+		<div class="md:w-2/5 max-w-2xl">
+			
+			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+			</p>
+		</div>
+	
 	</div>
-
-
-	<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quas nam dolorem id voluptates amet illo, provident quae minima tempora labore. Id quas rem neque quod, doloremque quos odit aliquid?
-	</p>
 </div>
 
-<div class="mx-auto mb-5">
+<hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
-	<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
+
+<div class="mx-auto my-10">
+
+	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
 		Where we are
 	</h1>
 
-	<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
+	<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
 		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
 	</p>
 	
@@ -111,13 +123,21 @@
 		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
 	</p>
 
-	<div class="flex">
-		<InfoCard>
-			kek
-		</InfoCard>
+	<h2 class="my-10 text-4xl font-bold dark:text-white">
+		What's near
+	</h2>
+
+	<!-- TODO non mi piacciono tanto comunque -->
 	
-		<InfoCard>
-			kek
+	<div class="flex flex-wrap items-center justify-center">
+		<InfoCard description={"u mare"} title={"2 Km"}>
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+		</InfoCard>
+		<InfoCard description={"u sole"} title={"2 Km"}>
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+		</InfoCard>
+		<InfoCard description={"u core"} title={"2 Km"}>
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 mr-3" fill="currentColor" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
 		</InfoCard>
 	</div>
 </div>
