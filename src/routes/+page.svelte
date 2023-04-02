@@ -30,6 +30,7 @@
 	</div>
 </div>
 
+<div id="details">&nbsp;</div>
 <div class="my-10 mx-auto">
 
 	<h2 class="my-4 text-4xl font-bold dark:text-white">
@@ -46,9 +47,9 @@
 </div>
 
 
-<div class="my-5">
-	
-	<h2 class="my-10 text-4xl font-bold dark:text-white">
+<div id="services">&nbsp;</div>
+<div  class="my-10">
+	<h2 class="my-5 text-4xl font-bold dark:text-white">
 		Services
 	</h2>
 	<div class="flex flex-col md:flex-row justify-around items-center mx-auto mb-5">
@@ -71,6 +72,7 @@
 
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
+<div id="gallery">&nbsp;</div>
 <div class="my-10 mx-auto">
 
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -87,6 +89,7 @@
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
 
+<div id="whereWeAre">&nbsp;</div>
 <div class="mx-auto my-10">
 
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -157,7 +160,7 @@
 
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
-<div class="mx-auto my-10">
+<div id="prices" class="mx-auto my-10">
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
 		Prices
 	</h1>
