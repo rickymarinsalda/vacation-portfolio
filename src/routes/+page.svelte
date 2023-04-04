@@ -136,23 +136,23 @@
 		<BeachCard 
 			title="Spiaggia di procchio" 
 			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
-			src="/images/beach/procchio.jpg"
+			src="./images/beach/procchio.jpg"
 		/>
 		
 		<BeachCard 
 			title="Spiaggia di paolina" 
 			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
-			src="/images/beach/paolina.jpg"
+			src="./images/beach/paolina.jpg"
 		/>
 		<BeachCard 
 			title="Spiaggia di sant andrea" 
 			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
-			src="/images/beach/sant-andrea.jpg"
+			src="./images/beach/sant-andrea.jpg"
 		/>
 		<BeachCard 
 			title="Spiaggia di spartaia" 
 			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
-			src="/images/beach/spartaia.jpg"
+			src="./images/beach/spartaia.jpg"
 		/>
 
 	</div>
