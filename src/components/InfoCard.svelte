@@ -3,7 +3,7 @@
     export let title = ''
 </script>
 
-<div class="md:h-[17rem] md:w-[15rem] w-40 h-32 bg-trasnparent p-4 flex flex-col items-center justify-center mb-6 mx-3 shadow-md rounded-lg overflow-hidden dark:shadow-lg dark:shadow-zinc-900">
+<div class="md:h-[12rem] md:w-[11rem] w-40 h-32 bg-trasnparent p-4 flex flex-col items-center justify-center mb-6 mx-3 shadow-md rounded-lg overflow-hidden dark:shadow-lg dark:shadow-zinc-900">
     
     <div class="flex row items-center justify-center my-3 dark:text-zinc-200">
     

@@ -4,16 +4,16 @@ export const galleryImages = [
         alt: 'image1.jpg'
     },
     {
-        src: './images/given/3.jpg',
-        alt: 'image3.jpg'
+        src: './images/given/5.jpg',
+        alt: 'bathroom5.jpg'
     },
     {
         src: './images/given/4.jpg',
         alt: 'bathroom4.jpg'
     },
     {
-        src: './images/given/5.jpg',
-        alt: 'bathroom5.jpg'
+        src: './images/given/3.jpg',
+        alt: 'image3.jpg'
     },
     {
         src: './images/given/6.jpg',

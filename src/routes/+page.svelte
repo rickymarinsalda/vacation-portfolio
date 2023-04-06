@@ -38,7 +38,7 @@
 	</h2>
 
 	<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+		The apartment has a designer sofa bed that encloses inside a comfortable <span class="font-black">double bed</span>, the kitchenette is equipped with <span class="font-black">induction cookers</span>, and the bathroom includes an <span class="font-black">oversize shower</span>. The linen (sheets, towels) is not included, but it will be possible to rent it on request.
 	</p>
 
 	<div class="flex-col">
@@ -63,7 +63,7 @@
 		<div class="md:w-2/5 max-w-2xl">
 			
 			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+				Renting a <span class="font-black">Vespa 50</span> is a great way to explore the nearby beaches and coves in Marciana. It’s an affordable option that allows you to travel around the area at your own pace and take in all of the beautiful scenery.
 			</p>
 		</div>
 	
@@ -97,8 +97,11 @@
 	</h1>
 
 	<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
-	</p>
+
+		Marciana is a beautiful village that offers a unique blend of history,
+		culture, and natural beauty. You can explore the 
+		narrow streets of the village and discover hidden gems such as small shops
+		selling local products and traditional restaurants serving delicious food.
 	
 	<div class="max-w-4xl mb-5 mx-auto">
 		<div
@@ -113,18 +116,37 @@
 			/>
 			<div class="flex flex-col justify-between p-4 leading-normal grow">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
-					Noteworthy technology acquisitions 2021
+					How to reach Marciana from Portoferraio
 				</h5>
-				<p class="mb-3 font-normal text-zinc-700 dark:text-zinc-400">
-					Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse
-					chronological order.
+				<p class=" mx-auto max-w-xl mb-3 font-normal text-zinc-700 dark:text-zinc-400">
+					You can reach Marciana from Portoferraio by <span class="font-black">bus, taxi or car</span>.
+					The bus journey time between Portoferraio and Marciana is around 30 minutes.
+					The bus service is operated by CTT Nord Livorno
 				</p>
 			</div>
 		</div>
 	</div>
 
 	<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+		Marciana is a peaceful medieval hilltop village on the slopes of Monte Capanne,
+		in the western part of Elba island. It’s one of the oldest settlements on the island 
+		with foundations dating back to 35 BC. There are many things to do in Marciana such as 
+		visiting the Marciana Fortress, which was built in 1700 and offers stunning views of the 
+		surrounding area. You can also visit the Church of San Niccolò, which dates back to the 
+		12th century and has a beautiful bell tower. If you’re interested in hiking, there are many 
+		trails that offer breathtaking views of the island.
+		<br>
+		<br>
+
+		Nestled in greenery of oak, pine and chestnut trees and enjoying the freshest of air, the Marciana
+		area exudes a special atmosphere with a mountain-like climate although the sea is only five 
+		kilometers away.
+		Like the rest of the island, the Marciana area is bursting with stunning beaches,
+		such as the sandy stretches at Paolina, Procchio and Spartaia, the sand and reefs
+		of Sant’Andrea; the reefs of Punta Nera and Chiessi, and the rocks and gravel of Pomonte
+		and Patresi.
+		In the village are available bar café,
+		 restaurants, wine-shop, pizzeria, typical shops, cash machine, playgrounds.
 	</p>
 
 	<h2 class="my-10 text-4xl font-bold dark:text-white">
@@ -134,25 +156,29 @@
 	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:justify-center lg:overflow-x-auto">
 		
 		<BeachCard 
-			title="Spiaggia di procchio" 
-			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			title="Procchio beach" 
+			description="Procchio beach is one of the longest and best equipped sandy beaches on the Island of Elba. It is located in Procchio, a small town in the municipality of Marciana. The beach is just under one kilometer long and has golden, fine sand. You'll spend 20 minutes to arrive there by car." 
 			src="./images/beach/procchio.jpg"
+			link="https://goo.gl/maps/nW33z4TUeK2iEdQFA"
 		/>
 		
 		<BeachCard 
-			title="Spiaggia di paolina" 
-			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			title="Paolina beach" 
+			description="Paolina beach is characterized by the nearby tiny island covered in lush, Mediterranean bush. The beach is very narrow, about 6 meters wide at its widest point and less than one hundred meters long. The sand is mixed with pebbles. The water is transparent and the sea bed is splendid. You'll spend 18 minutes to arrive there by car. " 
 			src="./images/beach/paolina.jpg"
+			link="https://goo.gl/maps/SyLYcyPXgzaXimXEA"
 		/>
 		<BeachCard 
-			title="Spiaggia di sant andrea" 
-			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			title="Sant'Andrea beach" 
+			description="Sant’Andrea beach is one of the most famous beaches in the Commune of Marciana. The beach is characterized by turquoise, crystal clear water and smooth granite rocks that go right down to the sea. The beach is quite small, only about 150 meters long and 10 meters at its widest point." 
 			src="./images/beach/sant-andrea.jpg"
+			link="https://goo.gl/maps/bWmePQBTap3K2YT76"
 		/>
 		<BeachCard 
-			title="Spiaggia di spartaia" 
-			description="dicta alias, unde repellat praesentium est deserunt qui iste esse sunt asperiores vel aliquam reprehenderit vero sint?" 
+			title="Spartaia beach" 
+			description="Spartaia beach is located in the northern part of Elba Island, between Procchio and Paolina beaches. It is a beautiful sandy beach, about 160 meters long and characterized by fine golden sand. The beach is protected by lush Mediterranean vegetation and two cliffs" 
 			src="./images/beach/spartaia.jpg"
+			link="https://goo.gl/maps/yzoNgUFJ5CovZ4R26"
 		/>
 
 	</div>
@@ -166,134 +192,111 @@
 	</h1>
 
 	<p class="mx-auto max-w-4xl md:my-10 my-3 text-lg dark:text-zinc-200">
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde iusto nobis quas reiciendis fugiat quam dignissimos ad corrupti aliquam blanditiis nulla, aut sapiente magni optio perspiciatis cupiditate quia debitis? Natus.
+		The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class="font-black">50 euros</span> per night.
 	</p>
 
 	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:items-center lg:justify-center lg:overflow-x-auto">
 		<div class="lg:my-2 shrink-0">
 			<Card padding="lg">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">July</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
-					<span class="text-3xl font-semibold">$</span>
-					<span class="text-5xl font-extrabold tracking-tight">49</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+					<span class="text-3xl font-semibold">€</span>
+					<span class="text-5xl font-extrabold tracking-tight">70</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 5 nights</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
 					</li>
 					<li class="flex space-x-2">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
-					</li>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+				  </li>
+				  <li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+					  <span class="text-base font-normal leading-tight text-gray-500">Check-in : 3:00 -7:00 pm</span>
+				  </li>
+				  <li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+					  <span class="text-base font-normal leading-tight text-gray-500">Check-out: 10:00 am </span>
 				</ul>
-				<Button class="w-full">Choose plan</Button>
 			</Card>
 		</div>
 		<div class="lg:my-2 shrink-0">
 			<Card size="xl" padding="xl">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">August</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
-					<span class="text-3xl font-semibold">$</span>
-					<span class="text-5xl font-extrabold tracking-tight">49</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+					<span class="text-3xl font-semibold">€</span>
+					<span class="text-5xl font-extrabold tracking-tight">80</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 5 nights</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
 					</li>
 					<li class="flex space-x-2">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+				    </li>
+					<li class="flex space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-in : 3:00 -7:00 pm</span>
 					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
-					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
-					</li>
+					<li class="flex space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-out: 10:00 am </span>
 				</ul>
-				<Button class="w-full">Choose plan</Button>
 			</Card>
 		</div>
 		<div class="lg:my-2 shrink-0">
 			<Card padding="lg">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">Standard plan</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">June & September</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
-					<span class="text-3xl font-semibold">$</span>
-					<span class="text-5xl font-extrabold tracking-tight">49</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+					<span class="text-3xl font-semibold">€</span>
+					<span class="text-5xl font-extrabold tracking-tight">60</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">2 team members</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 2 nights</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">20GB Cloud storage</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
 					</li>
 					<li class="flex space-x-2">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Integration help</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
 					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
+					<li class="flex space-x-2">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Sketch Files</span>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-in : 3:00 -7:00 pm</span>
 					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
+					<li class="flex space-x-2">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">API Access</span>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-out: 10:00 am </span>
 					</li>
-					<li class="flex space-x-2 line-through decoration-gray-500">
-						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Complete documentation</span>
-					</li>
+			<!--
 					<li class="flex space-x-2 line-through decoration-gray-500">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
 						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
 					</li>
+			-->
 				</ul>
-				<Button class="w-full">Choose plan</Button>
 			</Card>
 		</div>
 		

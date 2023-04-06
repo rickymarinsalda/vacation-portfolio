@@ -2,7 +2,7 @@ export const houseImages = [
     {
         id: 0,
         name: 'House',
-        imgurl: './images/given/11.jpg'
+        imgurl: './images/given/10.jpg'
     },
     {
         id: 1,
