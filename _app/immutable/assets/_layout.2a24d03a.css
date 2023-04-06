@@ -1332,8 +1332,8 @@ input[type="range"].range-lg::-moz-range-thumb {
 .hidden {
   display: none;
 }
-.\!h-\[30rem\] {
-  height: 30rem !important;
+.\!h-\[15rem\] {
+  height: 15rem !important;
 }
 .h-0 {
   height: 0px;
@@ -1488,9 +1488,6 @@ input[type="range"].range-lg::-moz-range-thumb {
 .w-4 {
   width: 1rem;
 }
-.w-40 {
-  width: 10rem;
-}
 .w-44 {
   width: 11rem;
 }
@@ -1520,6 +1517,9 @@ input[type="range"].range-lg::-moz-range-thumb {
 }
 .w-\[52px\] {
   width: 52px;
+}
+.w-\[7\.5rem\] {
+  width: 7.5rem;
 }
 .w-\[calc\(100\%-2rem\)\] {
   width: calc(100% - 2rem);
@@ -5216,6 +5216,10 @@ input[type="range"].range-lg::-moz-range-thumb {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:\!h-\[28rem\] {
+    height: 28rem !important;
   }
 
   .md\:h-\[12rem\] {
