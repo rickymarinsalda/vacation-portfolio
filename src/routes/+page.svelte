@@ -110,7 +110,7 @@
 			<iframe
 				title="Maps map"
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93692.76649157399!2d10.096006343419397!3d42.79048600534361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d64c07d7227d17%3A0xecc696a9b6c91a9b!2s57030%20Marciana%20Province%20of%20Livorno!5e0!3m2!1sen!2sit!4v1680017386293!5m2!1sen!2sit"
-				class="object-cover w-full !h-[30rem] flex"
+				class="object-cover w-full !h-[15rem] md:!h-[28rem] flex"
 				loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"
 			/>
