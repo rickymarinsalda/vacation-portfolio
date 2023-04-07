@@ -136,19 +136,19 @@
 	</div>
 
 	<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
-		Marciana is a peaceful medieval hilltop village on the slopes of Monte Capanne,
+		Marciana is a peaceful medieval hilltop village on the slopes of <span class="font-black">Monte Capanne</span>,
 		in the western part of Elba island. It’s one of the oldest settlements on the island 
 		with foundations dating back to 35 BC. There are many things to do in Marciana such as 
 		visiting the Marciana Fortress, which was built in 1700 and offers stunning views of the 
-		surrounding area. You can also visit the Church of San Niccolò, which dates back to the 
+		surrounding area. You can also visit the <span class="font-black">Church of San Niccolò</span>, which dates back to the 
 		12th century and has a beautiful bell tower. If you’re interested in hiking, there are many 
 		trails that offer breathtaking views of the island.
 		<br>
 		<br>
 
 		Nestled in greenery of oak, pine and chestnut trees and enjoying the freshest of air, the Marciana
-		area exudes a special atmosphere with a mountain-like climate although the sea is only five 
-		kilometers away.
+		area exudes a special atmosphere with a mountain-like climate although the sea is only <span class="font-black">five 
+			kilometers away</span>.
 		Like the rest of the island, the Marciana area is bursting with stunning beaches,
 		such as the sandy stretches at Paolina, Procchio and Spartaia, the sand and reefs
 		of Sant’Andrea; the reefs of Punta Nera and Chiessi, and the rocks and gravel of Pomonte
