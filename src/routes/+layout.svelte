@@ -38,7 +38,7 @@
 
 
 <Footer customClass="border-b border-1 !bg-red-500">
-	<FooterCopyright href="/" by="Ricky Marinsalda" year={2023} />
+	<FooterCopyright href="https://github.com/rickymarinsalda" by="Ricky Marinsalda" year={2023} />
 	<FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-zinc-500 dark:text-zinc-400 sm:mt-0">
     <FooterLink href="https://github.com/rickymarinsalda">
       <div class="flex items-center">

@@ -65,6 +65,14 @@
 			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
 				Renting a <span class="font-black">Vespa 50</span> is a great way to explore the nearby beaches and coves in Marciana. It’s an affordable option that allows you to travel around the area at your own pace and take in all of the beautiful scenery.
 			</p>
+
+			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
+				<a href="./document.pdf" download>
+					<img src="./doc.png" alt="document_agreement" class = "md:w-[5rem] w-[5rem] mx-auto" >
+						Click here for more details.
+				</a>
+			</p>
+			
 		</div>
 	
 	</div>
@@ -73,7 +81,7 @@
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
 <div id="gallery">&nbsp;</div>
-<div class="my-10 mx-auto">
+<div class="container lg:px-32  mx-auto items-center">
 
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
 		Gallery
@@ -81,10 +89,11 @@
 
 	<Gallery>
 		{#each galleryImages as {src, alt}}
-		<GalleryItem imgClass={"max-h-[40rem] rounded-lg max-w-full"} {src} {alt} />
+		<GalleryItem imgClass={"inset-0 object-cover object-center rounded "} {src} {alt} />
 		{/each}
 	</Gallery>
 </div>
+
 
 <hr class="h-px my-12 bg-zinc-200 border-0 dark:bg-zinc-700">
 
@@ -121,7 +130,6 @@
 				<p class=" mx-auto max-w-xl mb-3 font-normal text-zinc-700 dark:text-zinc-400">
 					You can reach Marciana from Portoferraio by <span class="font-black">bus, taxi or car</span>.
 					The bus journey time between Portoferraio and Marciana is around 30 minutes.
-					The bus service is operated by CTT Nord Livorno
 				</p>
 			</div>
 		</div>
@@ -296,6 +304,38 @@
 						<span class="text-base font-normal leading-tight text-gray-500">24×7 phone & email support</span>
 					</li>
 			-->
+				</ul>
+			</Card>
+		</div>
+		<div class="lg:my-2 shrink-0">
+			<Card size="xl" padding="xl">
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">May</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold">€</span>
+					<span class="text-5xl font-extrabold tracking-tight">50</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
+				</div>
+				<!-- List -->
+				<ul class="my-7 space-y-4">
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 2 nights</span>
+					</li>
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
+					</li>
+					<li class="flex space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+				    </li>
+					<li class="flex space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-in : 3:00 -7:00 pm</span>
+					</li>
+					<li class="flex space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+						<span class="text-base font-normal leading-tight text-gray-500">Check-out: 10:00 am </span>
 				</ul>
 			</Card>
 		</div>
