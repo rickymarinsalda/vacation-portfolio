@@ -1,17 +1,17 @@
 <script>
-	import Info from '../components/Info.svelte';
-	
+	import Info from '../components/Info.svelte'
 	import {houseImages} from '../components/+house'
 	import {scooterImages} from '../components/+scooter'
 	import {galleryImages} from '../components/+gallery'
 	
-	import { Button, Card, Carousel, Gallery, GalleryItem } from "flowbite-svelte";
-	import BeachCard from '../components/BeachCard.svelte';
-
+	import { Button, Card, Carousel, Gallery, GalleryItem } from "flowbite-svelte"
+	import BeachCard from '../components/BeachCard.svelte'
 	let showThumbs = false;
 	let showCaptions = false;
+	import{setupI18n,t} from '../i18n'
 
 </script>
+
 
 <div class="flex flex-col md:flex-row justify-around items-center mx-auto mb-5">
 	<div class="md:w-2/5 max-w-2xl">
@@ -19,7 +19,7 @@
 			Little Vespa House
 		</h1>
 		<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
-			A studio flat inspired by the <span class="font-black">Vespa world</span>, located in a historic pedestrian lane in the medieval village of <a href="https://goo.gl/maps/ckj5VXFV7nW2ay9PA" class="underline text-sky-600 font-black">Marciana</a>. Furnished with taste and attention to detail, it's a <span class="font-black">cozy space</span> for <span class="font-black">young couples</span> looking for a charming and elegant getaway.
+			{@html $t('intro.testo')}
 		</p>
 	</div>
 	<div class="md:w-2/5 max-w-2xl h-96 flex items-center justify-center">
@@ -34,11 +34,11 @@
 <div class="my-10 mx-auto">
 
 	<h2 class="my-4 text-4xl font-bold dark:text-white">
-		Details
+		{@html $t('details.title')}
 	</h2>
 
 	<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-		The apartment has a designer sofa bed that encloses inside a comfortable <span class="font-black">double bed</span>, the kitchenette is equipped with <span class="font-black">induction cookers</span>, and the bathroom includes an <span class="font-black">oversize shower</span>. The linen (sheets, towels) is not included, but it will be possible to rent it on request.
+		{@html $t('details.body')}
 	</p>
 
 	<div class="flex-col">
@@ -50,7 +50,7 @@
 <div id="services">&nbsp;</div>
 <div  class="my-10">
 	<h2 class="my-5 text-4xl font-bold dark:text-white">
-		Services
+		{@html $t('services.title')}
 	</h2>
 	<div class="flex flex-col md:flex-row justify-around items-center mx-auto mb-5">
 	
@@ -63,13 +63,12 @@
 		<div class="md:w-2/5 max-w-2xl">
 			
 			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-				Renting a <span class="font-black">Vespa 50</span> is a great way to explore the nearby beaches and coves in Marciana. It’s an affordable option that allows you to travel around the area at your own pace and take in all of the beautiful scenery.
-			</p>
+				{@html $t('services.body')}
 
 			<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-				<a href="./document.pdf" download>
+				<a href="./document.pdf" download class = "underline text-sky-600 font-black">
 					<img src="./doc.png" alt="document_agreement" class = "md:w-[5rem] w-[5rem] mx-auto" >
-						Click here for more details.
+						{@html $t('services.click')}
 				</a>
 			</p>
 			
@@ -84,7 +83,7 @@
 <div class="container lg:px-32  mx-auto items-center">
 
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
-		Gallery
+		{@html $t('gallery.title')}
 	</h1>
 
 	<Gallery>

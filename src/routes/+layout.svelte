@@ -1,8 +1,12 @@
 <script lang="ts">
     import "../app.css";
+    
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte'
   	import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-svelte"
     import { DarkMode } from 'flowbite-svelte';
+    import LocaleSwitcher from '../components/LocaleSwitcher.svelte';
+    import{setupI18n,t} from '../i18n'
+    setupI18n({ withLocale: 'it' });
 </script>
 
 <Navbar color="none" let:hidden let:toggle navDivClass={"mx-auto flex flex-wrap justify-between items-center"}>
@@ -12,8 +16,12 @@
   <div class="flex items-center space-x-2 md:order-2">
     <DarkMode class="text-2xl" />
     <a href="#prices">
-      <Button size="sm">Prices</Button>
+      <Button size="sm">{$t('nav.pre')}</Button>
     </a>
+    <LocaleSwitcher
+        value={"it"}
+        on:locale-changed={e => setupI18n({ withLocale: e.detail }) }
+    />
     <NavHamburger btnClass={"ml-3 md:hidden dark:text-zinc-300"} on:click={toggle} />
   </div>
   <NavUl {hidden} 
@@ -21,10 +29,10 @@
     nonActiveClass={'text-zinc-700 hover:bg-zinc-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 dark:text-zinc-400 md:dark:hover:text-white dark:hover:bg-zinc-700 dark:hover:text-white md:dark:hover:bg-transparent'} 
     ulClass={"dark:bg-transparent flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:items-center"}
   >
-    <NavLi href="#details">Details</NavLi>
-    <NavLi href="#services">Services</NavLi>
-    <NavLi href="#gallery">Gallery</NavLi>
-    <NavLi href="#whereWeAre">Location</NavLi>
+    <NavLi href="#details">{$t('nav.det')}</NavLi>
+    <NavLi href="#services">{$t('nav.ser')}</NavLi>
+    <NavLi href="#gallery">{$t('nav.gal')}</NavLi>
+    <NavLi href="#whereWeAre">{$t('nav.loc')}</NavLi>
   </NavUl>
 </Navbar>
 
