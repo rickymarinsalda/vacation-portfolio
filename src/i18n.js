@@ -123,8 +123,8 @@ function setupI18n({
         "beach4": "Spiaggia di Marciana Marina",
         "beach1desc": "La spiaggia di Procchio è una delle spiagge sabbiose più lunghe e meglio attrezzate dell’Isola d’Elba. Si trova a Procchio, a circa 10 km da Marciana. La spiaggia è lunga circa un chilometro e ha sabbia dorata e fine. In auto si raggiunge in circa 20 minuti da Marciana.",
         "beach2desc": "La spiaggia della Paolina è caratterizzata da una piccola isola coperta di macchia mediterranea. La sabbia è mista a ciottoli. L’acqua è trasparente e il fondale marino è splendido. In auto si raggiunge in circa 15 minuti da Marciana.",
-        "beach3desc": "La spiaggia di Sant’Andrea è una delle spiagge più famose dell'Elba. La spiaggia è caratterizzata da acqua turchese e cristallina e da lisci massi di granito che scendono fino al mare. Si raggiunge in auto in circa 10 minuti da Marciana.",
-        "beach4desc": "La spiaggia di Marciana Marina si presta bene ad essere frequentata da famiglie con bambini ed è attrezzata con noleggio sdraio, ombrelloni, noleggio canoe e pedalò. Si raggiunge in 8 minuti da Marciana.",
+        "beach3desc": "La spiaggia di Sant’Andrea è una delle spiagge più famose dell'Elba. La spiaggia è caratterizzata da acqua turchese e cristallina e da lisci massi di granito che scendono fino al mare. In auto si raggiunge in circa 10 minuti da Marciana.",
+        "beach4desc": "La spiaggia di Marciana Marina si presta bene ad essere frequentata da famiglie con bambini ed è attrezzata con noleggio sdraio, ombrelloni, noleggio canoe e pedalò. In auto si raggiunge in circa 8 minuti da Marciana.",
         "bottone": "Vai"
       },
       "prezzo": {
