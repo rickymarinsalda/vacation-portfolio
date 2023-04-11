@@ -283,7 +283,7 @@
 			</Card>
 		</div>
 		<div class="lg:my-2 shrink-0">
-			<Card size="xl" padding="xl">
+			<Card padding="lg" >
 				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese4')}</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold">€</span>
