@@ -160,8 +160,8 @@
 		<BeachCard 
 			title="{$t('vicino.beach4')}" 
 			description="{$t('vicino.beach4desc')}" 
-			src="./images/beach/spartaia.jpg"
-			link="https://goo.gl/maps/yzoNgUFJ5CovZ4R26"
+			src="./images/beach/marciana-marina.jpg"
+			link="https://goo.gl/maps/y1gHuvnbpRxxbHvj9"
 		/>
 
 	</div>

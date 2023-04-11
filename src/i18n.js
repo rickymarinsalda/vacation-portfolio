@@ -24,11 +24,12 @@ function setupI18n({
         "flat": "Flat studio",
         "cuc": "Equipped kichen",
         "park": "Free parking",
-        "sconto": "Ferry discount"
+        "sconto": "Ferry discount",
+        "farmacia":"Nearby pharmacy"
       },
       "services": {
         "title": "Services",
-        "body": "Renting a <span class='font-black'>Vespa 50</span> is a great way to explore the nearby beaches and coves in Marciana. It’s an affordable option that allows you to travel around the area at your own pace and take in all of the beautiful scenery.",
+        "body": "Traveling around the island with a <span class='font-black'>Vespa 50</span>  is an excellent solution to explore the beaches and coves near Marciana without problems of traffic and parking. It is an economical option that allows you to move comfortably and enjoy your vacation without stress.<br><span class='font-black'>Adequate scooter driving experience and AM or B license are required.</span>",
         "click": "Click here for more details."
       },
       "gallery": {
@@ -53,11 +54,11 @@ function setupI18n({
         "beach1": "Procchio beach",
         "beach2": "Paolina beach",
         "beach3": "Sant'Andrea beach",
-        "beach4": "Spartaia beach",
-        "beach1desc": "Procchio beach is one of the longest and best equipped sandy beaches on the Island of Elba. It is located in Procchio, a small town in the municipality of Marciana. The beach is just under one kilometer long and has golden, fine sand. You'll spend 20 minutes to arrive there by car.",
-        "beach2desc": "Paolina beach is characterized by the nearby tiny island covered in lush, Mediterranean bush. The beach is very narrow, about 6 meters wide at its widest point and less than one hundred meters long. The sand is mixed with pebbles. The water is transparent and the sea bed is splendid. You'll spend 18 minutes to arrive there by car. ",
-        "beach3desc": "Sant’Andrea beach is one of the most famous beaches in the Commune of Marciana. The beach is characterized by turquoise, crystal clear water and smooth granite rocks that go right down to the sea. The beach is quite small, only about 150 meters long and 10 meters at its widest point.",
-        "beach4desc": "Spartaia beach is located in the northern part of Elba Island, between Procchio and Paolina beaches. It is a beautiful sandy beach, about 160 meters long and characterized by fine golden sand. The beach is protected by lush Mediterranean vegetation and two cliffs",
+        "beach4": "Marciana Marina beach",
+        "beach1desc": "Procchio beach is one of the longest and best equipped sandy beaches on the Island of Elba. It is located in Procchio. The beach is just under one kilometer long and has golden, fine sand. You'll spend 20 minutes to arrive there by car.",
+        "beach2desc": "Paolina beach is characterized by the nearby tiny island covered in lush, Mediterranean bush. The sand is mixed with pebbles. The water is transparent and the sea bed is splendid. You'll spend 18 minutes to arrive there by car. ",
+        "beach3desc": "Sant’Andrea beach is one of the most famous beaches in the Commune of Marciana. The beach is characterized by turquoise, crystal clear water and smooth granite rocks that go right down to the sea.",
+        "beach4desc": "The beach of Marciana Marina is well suited for families with children and is equipped with sunbed rental, umbrellas, canoe rental and pedal boats.",
         "bottone": "Go"
       },
       "prezzo": {
@@ -89,7 +90,8 @@ function setupI18n({
         "flat": "Su un piano",
         "cuc": "Cucina accessoriata",
         "park": "Parcheggio gratis",
-        "sconto": "Sconto traghetto"
+        "sconto": "Sconto traghetto",
+        "farmacia":"Farmacia vicina"
       },
       "services": {
         "title": "Servizi",
@@ -118,11 +120,11 @@ function setupI18n({
         "beach1": "Spiaggia di Procchio",
         "beach2": "Spiaggia della Paolina",
         "beach3": "Spiaggia di Sant'Andrea",
-        "beach4": "Spiaggia di Spartaia",
-        "beach1desc": "La spiaggia di Procchio è una delle spiagge sabbiose più lunghe e meglio attrezzate dell’Isola d’Elba. Si trova a Procchio, a circa 10 km da Marciana. La spiaggia è lunga circa un chilometro e ha sabbia dorata e fine. In auto si raggiunge in circa 20 minuti.",
-        "beach2desc": "La spiaggia della Paolina è caratterizzata da una piccola isola coperta di macchia mediterranea. La sabbia è mista a ciottoli. L’acqua è trasparente e il fondale marino è splendido. In auto si raggiunge in circa 15 minuti.",
-        "beach3desc": "La spiaggia di Sant’Andrea è una delle spiagge più famose dell'Elba. La spiaggia è caratterizzata da acqua turchese e cristallina e da lisci massi di granito che scendono fino al mare. Si raggiunge in auto in circa 10 minuti da Marciana",
-        "beach4desc": "La spiaggia di Spartaia si trova nella parte nord dell’Isola d’Elba, tra le spiagge di Procchio e Paolina. È una bellissima spiaggia sabbiosa, lunga circa 160 metri e caratterizzata da sabbia fine e dorata. La spiaggia è protetta dalla lussureggiante vegetazione mediterranea e da due scogliere.",
+        "beach4": "Spiaggia di Marciana Marina",
+        "beach1desc": "La spiaggia di Procchio è una delle spiagge sabbiose più lunghe e meglio attrezzate dell’Isola d’Elba. Si trova a Procchio, a circa 10 km da Marciana. La spiaggia è lunga circa un chilometro e ha sabbia dorata e fine. In auto si raggiunge in circa 20 minuti da Marciana.",
+        "beach2desc": "La spiaggia della Paolina è caratterizzata da una piccola isola coperta di macchia mediterranea. La sabbia è mista a ciottoli. L’acqua è trasparente e il fondale marino è splendido. In auto si raggiunge in circa 15 minuti da Marciana.",
+        "beach3desc": "La spiaggia di Sant’Andrea è una delle spiagge più famose dell'Elba. La spiaggia è caratterizzata da acqua turchese e cristallina e da lisci massi di granito che scendono fino al mare. Si raggiunge in auto in circa 10 minuti da Marciana.",
+        "beach4desc": "La spiaggia di Marciana Marina si presta bene ad essere frequentata da famiglie con bambini ed è attrezzata con noleggio sdraio, ombrelloni, noleggio canoe e pedalò. Si raggiunge in 8 minuti da Marciana.",
         "bottone": "Vai"
       },
       "prezzo": {
