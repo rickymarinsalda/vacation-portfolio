@@ -140,26 +140,26 @@
 		
 		<BeachCard 
 			title="{$t('vicino.beach1')}" 
-			description="Procchio beach is one of the longest and best equipped sandy beaches on the Island of Elba. It is located in Procchio, a small town in the municipality of Marciana. The beach is just under one kilometer long and has golden, fine sand. You'll spend 20 minutes to arrive there by car." 
+			description="{$t('vicino.beach1desc')}" 
 			src="./images/beach/procchio.jpg"
 			link="https://goo.gl/maps/nW33z4TUeK2iEdQFA"
 		/>
 		
 		<BeachCard 
 			title="{$t('vicino.beach2')}" 
-			description="Paolina beach is characterized by the nearby tiny island covered in lush, Mediterranean bush. The beach is very narrow, about 6 meters wide at its widest point and less than one hundred meters long. The sand is mixed with pebbles. The water is transparent and the sea bed is splendid. You'll spend 18 minutes to arrive there by car. " 
+			description="{$t('vicino.beach2desc')}" 
 			src="./images/beach/paolina.jpg"
 			link="https://goo.gl/maps/SyLYcyPXgzaXimXEA"
 		/>
 		<BeachCard 
 			title="{$t('vicino.beach3')}" 
-			description="Sant’Andrea beach is one of the most famous beaches in the Commune of Marciana. The beach is characterized by turquoise, crystal clear water and smooth granite rocks that go right down to the sea. The beach is quite small, only about 150 meters long and 10 meters at its widest point." 
+			description="{$t('vicino.beach3desc')}" 
 			src="./images/beach/sant-andrea.jpg"
 			link="https://goo.gl/maps/bWmePQBTap3K2YT76"
 		/>
 		<BeachCard 
 			title="{$t('vicino.beach4')}" 
-			description="Spartaia beach is located in the northern part of Elba Island, between Procchio and Paolina beaches. It is a beautiful sandy beach, about 160 meters long and characterized by fine golden sand. The beach is protected by lush Mediterranean vegetation and two cliffs" 
+			description="{$t('vicino.beach4desc')}" 
 			src="./images/beach/spartaia.jpg"
 			link="https://goo.gl/maps/yzoNgUFJ5CovZ4R26"
 		/>
