@@ -101,16 +101,11 @@
 <div class="mx-auto my-10">
 
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
-		Where we are
+		{@html $t('dove.title')}
 	</h1>
 
 	<p class="mx-auto max-w-xl md:my-10 my-3 text-lg dark:text-zinc-200">
-
-		Marciana is a beautiful village that offers a unique blend of history,
-		culture, and natural beauty. You can explore the 
-		narrow streets of the village and discover hidden gems such as small shops
-		selling local products and traditional restaurants serving delicious food.
-	
+		{@html $t('dove.body1')}
 	<div class="max-w-4xl mb-5 mx-auto">
 		<div
 			class="overflow-hidden flex flex-col items-center bg-white border border-zinc-200 rounded-lg shadow md:flex-row hover:bg-zinc-100 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700"
@@ -124,65 +119,46 @@
 			/>
 			<div class="flex flex-col justify-between p-4 leading-normal grow">
 				<h5 class="mb-2 text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
-					How to reach Marciana from Portoferraio
+					{@html $t('dove.title2')}
 				</h5>
 				<p class=" mx-auto max-w-xl mb-3 font-normal text-zinc-700 dark:text-zinc-400">
-					You can reach Marciana from Portoferraio by <span class="font-black">bus, taxi or car</span>.
-					The bus journey time between Portoferraio and Marciana is around 30 minutes.
+					{@html $t('dove.body2')}
 				</p>
 			</div>
 		</div>
 	</div>
 
 	<p class="md:my-10 my-3 text-lg dark:text-zinc-200">
-		Marciana is a peaceful medieval hilltop village on the slopes of <span class="font-black">Monte Capanne</span>,
-		in the western part of Elba island. It’s one of the oldest settlements on the island 
-		with foundations dating back to 35 BC. There are many things to do in Marciana such as 
-		visiting the Marciana Fortress, which was built in 1700 and offers stunning views of the 
-		surrounding area. You can also visit the <span class="font-black">Church of San Niccolò</span>, which dates back to the 
-		12th century and has a beautiful bell tower. If you’re interested in hiking, there are many 
-		trails that offer breathtaking views of the island.
-		<br>
-		<br>
-
-		Nestled in greenery of oak, pine and chestnut trees and enjoying the freshest of air, the Marciana
-		area exudes a special atmosphere with a mountain-like climate although the sea is only <span class="font-black">five 
-			kilometers away</span>.
-		Like the rest of the island, the Marciana area is bursting with stunning beaches,
-		such as the sandy stretches at Paolina, Procchio and Spartaia, the sand and reefs
-		of Sant’Andrea; the reefs of Punta Nera and Chiessi, and the rocks and gravel of Pomonte
-		and Patresi.
-		In the village are available bar café,
-		 restaurants, wine-shop, pizzeria, typical shops, cash machine, playgrounds.
+		{@html $t('dove.foot')}
 	</p>
 
 	<h2 class="my-10 text-4xl font-bold dark:text-white">
-		What's near
+		{@html $t('vicino.title')}
 	</h2>
 
 	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:justify-center lg:overflow-x-auto">
 		
 		<BeachCard 
-			title="Procchio beach" 
+			title="{$t('vicino.beach1')}" 
 			description="Procchio beach is one of the longest and best equipped sandy beaches on the Island of Elba. It is located in Procchio, a small town in the municipality of Marciana. The beach is just under one kilometer long and has golden, fine sand. You'll spend 20 minutes to arrive there by car." 
 			src="./images/beach/procchio.jpg"
 			link="https://goo.gl/maps/nW33z4TUeK2iEdQFA"
 		/>
 		
 		<BeachCard 
-			title="Paolina beach" 
+			title="{$t('vicino.beach2')}" 
 			description="Paolina beach is characterized by the nearby tiny island covered in lush, Mediterranean bush. The beach is very narrow, about 6 meters wide at its widest point and less than one hundred meters long. The sand is mixed with pebbles. The water is transparent and the sea bed is splendid. You'll spend 18 minutes to arrive there by car. " 
 			src="./images/beach/paolina.jpg"
 			link="https://goo.gl/maps/SyLYcyPXgzaXimXEA"
 		/>
 		<BeachCard 
-			title="Sant'Andrea beach" 
+			title="{$t('vicino.beach3')}" 
 			description="Sant’Andrea beach is one of the most famous beaches in the Commune of Marciana. The beach is characterized by turquoise, crystal clear water and smooth granite rocks that go right down to the sea. The beach is quite small, only about 150 meters long and 10 meters at its widest point." 
 			src="./images/beach/sant-andrea.jpg"
 			link="https://goo.gl/maps/bWmePQBTap3K2YT76"
 		/>
 		<BeachCard 
-			title="Spartaia beach" 
+			title="{$t('vicino.beach4')}" 
 			description="Spartaia beach is located in the northern part of Elba Island, between Procchio and Paolina beaches. It is a beautiful sandy beach, about 160 meters long and characterized by fine golden sand. The beach is protected by lush Mediterranean vegetation and two cliffs" 
 			src="./images/beach/spartaia.jpg"
 			link="https://goo.gl/maps/yzoNgUFJ5CovZ4R26"
@@ -195,35 +171,35 @@
 
 <div id="prices" class="mx-auto my-10">
 	<h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
-		Prices
+		{@html $t('prezzo.title')}
 	</h1>
 
 	<p class="mx-auto max-w-4xl md:my-10 my-3 text-lg dark:text-zinc-200">
-		The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class="font-black">50 euros</span> per night.
+		{@html $t('prezzo.body')}
 	</p>
 
 	<div class="flex overflow-x-scroll space-x-4 lg:flex-wrap lg:items-center lg:justify-center lg:overflow-x-auto">
 		<div class="lg:my-2 shrink-0">
 			<Card padding="lg">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">July</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese1')}</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold">€</span>
 					<span class="text-5xl font-extrabold tracking-tight">70</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">{@html $t('prezzo.notte')}</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 5 nights</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info1')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info4')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info3')}</span>
 				  </li>
 				  <li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -237,25 +213,25 @@
 		</div>
 		<div class="lg:my-2 shrink-0">
 			<Card size="xl" padding="xl">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">August</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese2')}</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold">€</span>
 					<span class="text-5xl font-extrabold tracking-tight">80</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">{@html $t('prezzo.notte')}</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 5 nights</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info1')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info4')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info3')}</span>
 				    </li>
 					<li class="flex space-x-2">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -269,25 +245,25 @@
 		</div>
 		<div class="lg:my-2 shrink-0">
 			<Card padding="lg">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">June & September</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese3')}</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold">€</span>
 					<span class="text-5xl font-extrabold tracking-tight">60</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">{@html $t('prezzo.notte')}</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 2 nights</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info2')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info4')}</span>
 					</li>
 					<li class="flex space-x-2">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info3')}</span>
 					</li>
 					<li class="flex space-x-2">
 						  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -308,25 +284,25 @@
 		</div>
 		<div class="lg:my-2 shrink-0">
 			<Card size="xl" padding="xl">
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">May</h5>
+				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese4')}</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold">€</span>
 					<span class="text-5xl font-extrabold tracking-tight">50</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">/night</span>
+					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">{@html $t('prezzo.notte')}</span>
 				</div>
 				<!-- List -->
 				<ul class="my-7 space-y-4">
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Minimum stay 2 nights</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info2')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">+30€ final cleaning</span>
+						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info4')}</span>
 					</li>
 					<li class="flex space-x-2">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">Rent linen (sheets, towels) on request</span>
+					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info3')}</span>
 				    </li>
 					<li class="flex space-x-2">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>

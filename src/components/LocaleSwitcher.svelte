@@ -16,14 +16,12 @@
       display: flex;
       justify-content: center;
     }
-    .select {
-      margin: 0 1rem 1rem;
-    }
+  
   </style>
   <div class="choose-locale ">
-    <div class="select "> <select value={value} on:change={switchLocale}>
-        <option value="en">English</option>
-        <option value="it">Italian</option>
+    <div> <select value={value} on:change={switchLocale}>
+        <option value="en">EN</option>
+        <option value="it">IT</option>
       </select> </div>
   </div>
 
