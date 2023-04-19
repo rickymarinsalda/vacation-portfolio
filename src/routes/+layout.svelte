@@ -201,7 +201,9 @@
 		<a href="#prices">
 			<Button size="sm">{$t('nav.pre')}</Button>
 		</a>
-		<LocaleSwitcher value={'it'} on:locale-changed={(e) => setupI18n({ withLocale: e.detail })} />
+		<div class = "hidden md:flex">
+		<LocaleSwitcher on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}/>
+		</div>
 		<NavHamburger btnClass={'ml-3 md:hidden dark:text-zinc-300'} on:click={toggle} />
 	</div>
 	<NavUl
@@ -210,10 +212,14 @@
 		nonActiveClass={'text-zinc-700 hover:bg-zinc-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-600 dark:text-zinc-400 md:dark:hover:text-white dark:hover:bg-zinc-700 dark:hover:text-white md:dark:hover:bg-transparent'}
 		ulClass={'dark:bg-transparent flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:items-center'}
 	>
+	<div class = "md:hidden">
+		<LocaleSwitcher on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}/>
+	</div>
 		<NavLi href="#details">{$t('nav.det')}</NavLi>
 		<NavLi href="#services">{$t('nav.ser')}</NavLi>
 		<NavLi href="#gallery">{$t('nav.gal')}</NavLi>
 		<NavLi href="#whereWeAre">{$t('nav.loc')}</NavLi>
+	
 	</NavUl>
 </Navbar>
 
