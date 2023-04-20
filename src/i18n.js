@@ -63,14 +63,15 @@ function setupI18n({
       },
       "prezzo": {
         "title": "Prices",
-        "body": " The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class='font-black'>50 euros</span> per night.",
+        "body": " The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class='font-black'>50 euros</span> per night. <br> <br> <span class='font-black'>Payment methods:</span> The booking payment requires a deposit of 30% of the total, which must be paid at the time of booking. The remaining can be paid at check-in.",
         "mese1": "July",
         "mese2": "August",
         "mese3": "June & September",
         "mese4": "May",
         "notte": "/night",
         "info1": "Minimum stay 5 nights",
-        "info2": "Minimum stay 2 nights",
+        "info2": "Minimum stay 3 nights",
+        "info5": "Minimum stay 7 nights",
         "info4": " +30€ final cleaning",
         "info3": "Rent linen (sheets, towels) on request"
       }
@@ -96,7 +97,7 @@ function setupI18n({
       "services": {
         "title": "Servizi",
         "body": "Viaggiare sull'isola con una <span class='font-black'>Vespa 50</span> è un’ottima soluzione per esplorare le spiagge e le calette vicine a Marciana senza problemi di code e parcheggi. È un’opzione economica che ti permette di spostarti comodamente e goderti la tua vacanza senza stress. <br> <span class='font-black'>È necessaria una adeguata esperienza di guida di scooter e la patente AM o B.</span>",
-        "click": "Clicca qua per maggiori informazioni."
+        "click": "Clicca qui per maggiori informazioni."
       },
       "gallery": {
         "title": "Galleria",
@@ -129,14 +130,15 @@ function setupI18n({
       },
       "prezzo": {
         "title": "Prezzi",
-        "body": "Il costo dell’appartamento varia a seconda del mese di prenotazione, ma in ogni caso parte da <span class='font-black'>50 euro</span> a notte.",
+        "body": "Il costo dell’appartamento varia a seconda del mese di prenotazione, ma in ogni caso parte da <span class='font-black'>50 euro</span> a notte. <br> <br><span class='font-black'>Modalità di pagamento:</span> Il pagamento della prenotazione richiede una caparra del 30% del totale, che andrà effettuata al momento della prenotazione. Il restante potrà essere saldato al momento del check-in.",
         "mese1": "Luglio",
         "mese2": "Agosto",
         "mese3": "Giugno e Settembre",
         "mese4": "Maggio",
         "notte": "/notte",
         "info1": "Permanenza minima 5 notti",
-        "info2": "Permanenza minima 2 notti",
+        "info2": "Permanenza minima 3 notti",
+        "info5": "Permanenza minima 7 notti",
         "info3": "Biancheria prenotabile su richiesta",
         "info4": "+30€ pulizia finale"
       }
