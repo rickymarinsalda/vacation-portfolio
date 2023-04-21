@@ -15,9 +15,10 @@
 	let:toggle
 	navDivClass={'mx-auto flex flex-wrap justify-between items-center'}
 >
+	
 	<NavBrand href="#">
 		<svg
-			class="w-12 h-12"
+			class="w-13 h-12"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
 			version="1.1"
@@ -195,6 +196,7 @@
 				d="M327.2,55.7v48.8c11.2-2.4,19.2-12.8,19.2-24.8C347.2,67.7,338.4,58.1,327.2,55.7z"
 			/></svg
 		>
+		
 	</NavBrand>
 	<div class="flex items-center space-x-2 md:order-2">
 		<DarkMode class="text-2xl" />

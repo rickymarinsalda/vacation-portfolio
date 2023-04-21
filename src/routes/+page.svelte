@@ -27,7 +27,7 @@
 			divClass={'overflow-hidden relative min-h-56 max-h-96 rounded-lg sm:h-[20rem] xl:h-[30rem]'} 
 			images={houseImages} {showThumbs} {showCaptions} 
 			loop
-			duration={3000.0}
+			duration={4000.0}
 		/>
 		
 	</div>
