@@ -1,3 +1,4 @@
+
 export const houseImages = [
     {
         id: 0,
@@ -20,3 +21,4 @@ export const houseImages = [
         imgurl: './images/given/8.jpg'
     },
 ];
+

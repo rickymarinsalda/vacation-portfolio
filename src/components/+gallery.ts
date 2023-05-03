@@ -1,3 +1,4 @@
+/*
 export const galleryImages = [
     {
         src: './images/given/9.jpg',
@@ -46,5 +47,56 @@ export const galleryImages = [
     {
         src: './images/given/13.jpg',
         alt: 'out.jpg'
+    },
+];
+*/
+export const galleryImages = [
+    {
+        src: './images/new/2.jpg',
+        alt: 'image3.jpg'
+    },
+    {
+        src: './images/new/1.jpg',
+        alt: 'bathroom9.jpg'
+    },
+    {
+        src: './images/new/3.jpg',
+        alt: 'bathroom6.jpg'
+    },
+    {
+        src: './images/new/4.jpg',
+        alt: 'bathroom7.jpg'
+    },
+    {
+        src: './images/new/5.jpg',
+        alt: 'house.jpg'
+    },
+    {
+        src: './images/new/7.jpg',
+        alt: 'image1.jpg'
+    },
+    {
+        src: './images/new/6.jpg',
+        alt: 'out.jpg'
+    },
+    {
+        src: './images/new/8.png',
+        alt: 'bathroom9.jpg'
+    },
+    {
+        src: './images/new/10.png',
+        alt: 'bathroom9.jpg'
+    },
+    {
+        src: './images/new/9.png',
+        alt: 'bathroom9.jpg'
+    },
+    {
+        src: './images/new/12.png',
+        alt: 'bathroom9.jpg'
+    },
+    {
+        src: './images/new/11.png',
+        alt: 'bathroom9.jpg'
     },
 ];

@@ -61,6 +61,11 @@ function setupI18n({
         "beach4desc": "The beach of Marciana Marina is well suited for families with children and is equipped with rental chairs, umbrellas, canoes, and pedal boats. It can be reached by car in about 8 minutes from Marciana.",
         "bottone": "Go"
       },
+      "chisono": {
+        "title":"About me",
+        "body":"I am a former executive of a company with a great passion for storytelling, motorcycle riding, traveling, and table tennis. Currently, I live between Pisa and the Island of Elba, where I have created a characteristic and comfortable accommodation in the center of Marciana. I want to offer my guests the opportunity to experience a holiday in freedom, enjoying everything the island has to offer."
+      }
+      ,
       "prezzo": {
         "title": "Prices",
         "body": " The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class='font-black'>50 euros</span> per night. <br> <br> <span class='font-black'>Payment methods:</span> The booking payment requires a deposit of 30% of the total, which must be paid at the time of booking. The remaining can be paid at check-in.",
@@ -127,6 +132,10 @@ function setupI18n({
         "beach3desc": "La spiaggia di Sant’Andrea è una delle spiagge più famose dell'Elba. La spiaggia è caratterizzata da acqua turchese e cristallina e da lisci massi di granito che scendono fino al mare. In auto si raggiunge in circa 10 minuti da Marciana.",
         "beach4desc": "La spiaggia di Marciana Marina si presta bene ad essere frequentata da famiglie con bambini ed è attrezzata con noleggio sdraio, ombrelloni, noleggio canoe e pedalò. In auto si raggiunge in circa 8 minuti da Marciana.",
         "bottone": "Vai"
+      },
+      "chisono": {
+        "title":"Chi sono",
+        "body":"Sono un ex dirigente d'azienda con una grande passione per la narrativa, il motociclismo, i viaggi e il tennis tavolo. Attualmente vivo tra Pisa e l'Isola d'Elba, dove ho creato un alloggio caratteristico e confortevole nel centro di Marciana. Desidero offrire ai miei ospiti la possibilità di vivere un'esperienza di vacanza in libertà, godendosi tutto ciò che l'isola ha da offrire."
       },
       "prezzo": {
         "title": "Prezzi",
