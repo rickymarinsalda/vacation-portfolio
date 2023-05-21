@@ -68,7 +68,7 @@ function setupI18n({
       ,
       "prezzo": {
         "title": "Prices",
-        "body": " The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class='font-black'>50 euros</span> per night. <br> <br> <span class='font-black'>Payment methods:</span> The booking payment requires a deposit of 30% of the total, which must be paid at the time of booking. The remaining can be paid at check-in.",
+        "body": " The cost of the apartment varies depending on the month of booking, but in any case it starts from <span class='font-black'>60 euros</span> per night. <br> <br> <span class='font-black'>Payment methods:</span> The booking payment requires a deposit of 30% of the total, which must be paid at the time of booking. The remaining can be paid at check-in.",
         "mese1": "July",
         "mese2": "August",
         "mese3": "June & September",
@@ -139,7 +139,7 @@ function setupI18n({
       },
       "prezzo": {
         "title": "Prezzi",
-        "body": "Il costo dell’appartamento varia a seconda del mese di prenotazione, ma in ogni caso parte da <span class='font-black'>50 euro</span> a notte. <br> <br><span class='font-black'>Modalità di pagamento:</span> Il pagamento della prenotazione richiede una caparra del 30% del totale, che andrà effettuata al momento della prenotazione. Il restante potrà essere saldato al momento del check-in.",
+        "body": "Il costo dell’appartamento varia a seconda del mese di prenotazione, ma in ogni caso parte da <span class='font-black'>60 euro</span> a notte. <br> <br><span class='font-black'>Modalità di pagamento:</span> Il pagamento della prenotazione richiede una caparra del 30% del totale, che andrà effettuata al momento della prenotazione. Il restante potrà essere saldato al momento del check-in.",
         "mese1": "Luglio",
         "mese2": "Agosto",
         "mese3": "Giugno e Settembre",

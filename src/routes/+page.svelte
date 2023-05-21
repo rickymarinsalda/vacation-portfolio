@@ -352,38 +352,7 @@
 				</ul>
 			</Card>
 		</div>
-		<div class="lg:my-2 shrink-0">
-			<Card padding="lg" >
-				<h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{@html $t('prezzo.mese4')}</h5>
-				<div class="flex items-baseline text-gray-900 dark:text-white">
-					<span class="text-3xl font-semibold">€</span>
-					<span class="text-5xl font-extrabold tracking-tight">50</span>
-					<span class="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">{@html $t('prezzo.notte')}</span>
-				</div>
-				<!-- List -->
-				<ul class="my-7 space-y-4">
-					<li class="flex space-x-2">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info2')}</span>
-					</li>
-					<li class="flex space-x-2">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info4')}</span>
-					</li>
-					<li class="flex space-x-2">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-					  <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{@html $t('prezzo.info3')}</span>
-				    </li>
-					<li class="flex space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Check-in : 3:00 -7:00 pm</span>
-					</li>
-					<li class="flex space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600 dark:text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-						<span class="text-base font-normal leading-tight text-gray-500">Check-out: 10:00 am </span>
-				</ul>
-			</Card>
-		</div>
+		
 		
 	</div>
 </div>
