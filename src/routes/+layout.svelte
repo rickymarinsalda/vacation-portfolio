@@ -4,9 +4,7 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte';
 	import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from 'flowbite-svelte';
 	import { DarkMode } from 'flowbite-svelte';
-	import LocaleSwitcher from '../components/LocaleSwitcher.svelte';
-	import { setupI18n, t } from '../i18n';
-	setupI18n({ withLocale: 'it' });
+
 </script>
 
 <Navbar
@@ -201,11 +199,9 @@
 	<div class="flex items-center space-x-2 md:order-2">
 		<DarkMode class="text-2xl" />
 		<a href="#prices">
-			<Button size="sm">{$t('nav.pre')}</Button>
+			<Button size="sm">Results</Button>
 		</a>
-		<div class = "hidden md:flex">
-		<LocaleSwitcher on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}/>
-		</div>
+	
 		<NavHamburger btnClass={'ml-3 md:hidden dark:text-zinc-300'} on:click={toggle} />
 	</div>
 	<NavUl
@@ -215,13 +211,10 @@
 		ulClass={'dark:bg-transparent flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:items-center'}
 	>
 	<div class = "md:hidden">
-		<LocaleSwitcher on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}/>
+		
 	</div>
-		<NavLi href="#details">{$t('nav.det')}</NavLi>
-		<NavLi href="#services">{$t('nav.ser')}</NavLi>
-		<NavLi href="#gallery">{$t('nav.gal')}</NavLi>
-		<NavLi href="#whereWeAre">{$t('nav.loc')}</NavLi>
-		<NavLi href="#whoIam">{$t('chisono.title')}</NavLi>
+		<NavLi href="#details">Insert dataset</NavLi>
+		<NavLi href="#services">Results</NavLi>
 	
 	</NavUl>
 </Navbar>
@@ -258,35 +251,9 @@
 	<FooterLinkGroup
 		ulClass="flex flex-wrap items-center mt-3 text-sm text-zinc-500 dark:text-zinc-400 sm:mt-0"
 	>
-		<FooterLink href="tel:+393346262154">
-			<div class="flex items-center">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="currentColor"
-					class="mr-1 w-6 h-6"
-					viewBox="0 0 16 16"
-				>
-					<path
-						fill-rule="evenodd" 
-						d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
-					/>
-				</svg>
+	
 
-				+39 334 6262 154
-
-			
-			</div>
-		</FooterLink>
-		
-		<FooterLink href="tel:+393346262154">
-			<div class="flex items-center">
-				<svg fill="currentColor" class="mr-1 w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill-rule="evenodd" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
-				
-				+39 334 6262 154
-			</div>
-		</FooterLink>
-
-		<FooterLink href="mailto:pecchiaf@tiscali.it">
+		<FooterLink href="mailto:admin@admin.it">
 			<div class="flex items-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -298,7 +265,7 @@
 						d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
 					/>
 				</svg>
-				pecchiaf@tiscali.it
+				admin@admin.it
 			</div>
 		</FooterLink>
 	</FooterLinkGroup>
