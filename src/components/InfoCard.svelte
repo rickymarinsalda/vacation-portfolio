@@ -10,7 +10,7 @@
         <slot/>
     
         {#if description != ""}
-            <p class="text-xl">{@html description}</p>
+             <p class="text-xl">{@html description}</p>
         {/if}
     </div>
 
