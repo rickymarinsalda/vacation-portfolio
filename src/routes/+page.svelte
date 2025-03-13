@@ -181,7 +181,7 @@
 		
 		<div class="md:flex md:items-center md:justify-center">
 		
-		  <div class=" md:w-2/5 mt-4 md:mt-0 md:ml-6">
+		  <div class=" md:w-4/5 mt-4 md:mt-0 md:ml-6">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="lg:text-center">
 				  <h1 class="my-10 text-4xl font-extrabold leading-none tracking-tight text-zinc-900 md:text-5xl lg:text-6xl dark:text-white">
@@ -229,7 +229,14 @@
 		</div>
 		<div class="hidden md:block md:w-2/5 md:flex-shrink-0">
 			
-			<img class="mx-auto w-60 h-60 rounded-full" src="images/me/test2.jpg" alt="Avatar">
+	<img
+	class="mx-auto w-80 h-80 rounded-full object-cover"
+	src="images/me/test2.jpg"
+	alt="Avatar"
+	>
+
+
+
 		  </div>
 	  
 	</div>
