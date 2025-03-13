@@ -229,7 +229,7 @@
 		</div>
 		<div class="hidden md:block md:w-2/5 md:flex-shrink-0">
 			
-			<img class="mx-auto w-60 h-60 rounded-full" src="/images/me/test2.jpg" alt="Avatar">
+			<img class="mx-auto w-60 h-60 rounded-full" src="images/me/test2.jpg" alt="Avatar">
 		  </div>
 	  
 	</div>
