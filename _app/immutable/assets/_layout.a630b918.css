@@ -5296,6 +5296,10 @@ input[type="range"].range-lg::-moz-range-thumb {
     width: 40%;
   }
 
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
   .md\:w-48 {
     width: 12rem;
   }
