@@ -1430,9 +1430,6 @@ input[type="range"].range-lg::-moz-range-thumb {
 .h-\[52px\] {
   height: 52px;
 }
-.h-\[5rem\] {
-  height: 5rem;
-}
 .h-auto {
   height: auto;
 }
@@ -1531,9 +1528,6 @@ input[type="range"].range-lg::-moz-range-thumb {
 }
 .w-\[52px\] {
   width: 52px;
-}
-.w-\[5rem\] {
-  width: 5rem;
 }
 .w-\[7\.5rem\] {
   width: 7.5rem;
@@ -5306,10 +5300,6 @@ input[type="range"].range-lg::-moz-range-thumb {
 
   .md\:w-\[11rem\] {
     width: 11rem;
-  }
-
-  .md\:w-\[5rem\] {
-    width: 5rem;
   }
 
   .md\:w-auto {
